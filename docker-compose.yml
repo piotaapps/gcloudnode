@@ -1,0 +1,7 @@
+version: '2'
+services:
+  gcloudnode:
+    build: .
+    volumes:
+     - ./source:/source
+    image: piotaapps/gcloudnode
