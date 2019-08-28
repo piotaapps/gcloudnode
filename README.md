@@ -7,6 +7,8 @@ Python Composer
 Node.js
 GCF emulator
 
+It is intended as a pre-requisite image for `piotaapps/gclouddevops`
+
 # Steps
 
 1. run `docker-compose build`
