@@ -30,5 +30,5 @@ RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | b
     && nvm use default \
     && npm install npm@latest casperjs @google-cloud/functions-emulator -g
 
-ENV NODE_PATH $NVM_DIR/v$NODE_VERSION/lib/node_modules
-ENV PATH $NVM_DIR/v$NODE_VERSION/bin:$PATH
+ENV NODE_PATH $NVM_DIR/$NODE_VERSION/lib/node_modules
+ENV PATH $NVM_DIR/$NODE_VERSION/bin:$PATH
